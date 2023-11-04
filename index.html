@@ -14,6 +14,7 @@
 
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/hero.css" />
   </head>
 
   <body>
@@ -28,5 +29,29 @@
         <a href="#login"><span>LOG IN</span></a>
       </nav>
     </header>
+
+    <section class="hero">
+      <picture class="bg-img">
+        <source
+          media="(min-width: 769px)"
+          srcset="
+            https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original
+          " />
+
+        <source
+          media="(min-width: 415px)"
+          srcset="
+            https://cnbl-cdn.bamgrid.com/assets/526124a79cff66402dd054d3391099b4546892083c29d25a2d17c8193cc439bf/original
+          " />
+
+        <source
+          media="(min-width: 0px)"
+          srcset="
+            https://cnbl-cdn.bamgrid.com/assets/4e3cb21e012549ce1d54e194184cec4f4915d1ff87e0963e96651cdeff1f3e6f/original
+          " />
+
+        <img alt="" />
+      </picture>
+    </section>
   </body>
 </html>
