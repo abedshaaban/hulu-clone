@@ -9,9 +9,9 @@ header {
 }
 
 header div {
-  width: 61px;
+  width: 62px;
   height: 24px;
-  margin-left: 24px;
+  margin-left: 40px;
 }
 
 header img {
@@ -20,9 +20,11 @@ header img {
 }
 
 header a {
-  margin-right: 24px;
+  margin-right: 40px;
   color: #a8afbd;
   padding: 12px;
+  font-weight: 600;
+  font-size: 14px;
   border-radius: 12px;
   transition-duration: 0.3s;
   transition-timing-function: ease;
@@ -30,5 +32,5 @@ header a {
 
 header a:hover {
   color: white;
-  background-color: #a8afbd;
+  background-color: #323843;
 }
