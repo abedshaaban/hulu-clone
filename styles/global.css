@@ -1,5 +1,13 @@
+@import url(https://db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular+Regular);
+
 * {
   padding: 0;
   margin: 0;
   border: 0;
+  font-family: Graphik Web, Graphik, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
