@@ -23,3 +23,9 @@
   font-size: 18px;
   font-weight: 400;
 }
+
+@media (max-width: 767px) {
+  .plan-h2 {
+    font-size: 32px;
+  }
+}
