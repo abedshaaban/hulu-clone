@@ -1,16 +1,109 @@
 .hero {
   width: 100%;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-content {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  scale: 1;
+}
+
+.hero-card {
+  width: 100%;
+  max-width: 269px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-card > span {
+  color: var(--green);
+  font-size: 12px;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+.img-hero-container {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.hero-card p {
+  color: white;
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hero-card button {
+  width: 100%;
+  padding: 9px;
+  font-size: 14px;
+  margin-top: 16px;
+  font-weight: 600;
+  background: var(--green);
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.hero-card button:hover {
+  opacity: 0.8;
+}
+
+.hero-links {
+  color: white;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero-links a:hover {
+  color: gray;
 }
 
 .bg-img {
   width: 100%;
-  height: 100%;
-}
-
-.bg-img img {
-  width: 100%;
-  height: 100%;
+  height: 100vh;
+  background-image: url("https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original");
   object-fit: cover;
   object-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+}
+
+@media (min-width: 0px) {
+  .bg-img {
+    background-image: url("https://cnbl-cdn.bamgrid.com/assets/4e3cb21e012549ce1d54e194184cec4f4915d1ff87e0963e96651cdeff1f3e6f/original");
+  }
+}
+
+@media (min-width: 415px) {
+  .bg-img {
+    background-image: url("https://cnbl-cdn.bamgrid.com/assets/526124a79cff66402dd054d3391099b4546892083c29d25a2d17c8193cc439bf/original");
+  }
+}
+
+@media (min-width: 769px) {
+  .bg-img {
+    background-image: url("https://cnbl-cdn.bamgrid.com/assets/62ed936344e6ffbac48c896b2bd327fe171521dd941b6ddc8402e2eae50116fc/original");
+  }
 }

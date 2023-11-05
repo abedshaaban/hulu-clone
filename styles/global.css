@@ -1,5 +1,9 @@
 @import url(https://db.onlinewebfonts.com/c/105007d99d9df64c50cc24d696d79555?family=Graphik+Web+Regular+Regular);
 
+:root {
+  --green: #00ed82;
+}
+
 * {
   padding: 0;
   margin: 0;
