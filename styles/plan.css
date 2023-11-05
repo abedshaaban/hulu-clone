@@ -1,0 +1,25 @@
+.plan {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.plan-header {
+  padding: 80px 0 40px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.plan-h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.plan-p {
+  font-size: 18px;
+  font-weight: 400;
+}
