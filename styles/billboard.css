@@ -1,0 +1,71 @@
+.billboard {
+  width: 100%;
+  padding: 0 10px 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: black;
+  color: white;
+  gap: 30px;
+}
+
+.billboard-span1 {
+  max-width: 700px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--green);
+}
+
+.billboard-span2 {
+  max-width: 700px;
+  font-size: 48px;
+  font-weight: 600;
+  white-space: no-wrap;
+}
+
+.billboard-span3 {
+  max-width: 700px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.billboard-btn {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+  background-color: var(--green);
+  padding: 12px 24px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition-duration: 0.15s;
+}
+
+.billboard-btn:hover {
+  background-color: #1ce78390;
+}
+
+.billboard-span4 {
+  max-width: 700px;
+  color: #ffffff99;
+  font-size: 10px;
+}
+
+.billboard a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .billboard-span2 {
+    font-size: 32px;
+  }
+
+  .billboard-span3 {
+    padding: 8px 0;
+  }
+  .billboard-span5 {
+    font-size: 12px;
+  }
+}
