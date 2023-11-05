@@ -24,6 +24,76 @@
   font-weight: 400;
 }
 
+.bd {
+  border-bottom: 1px solid gray;
+}
+
+.switch {
+  width: 56px;
+  height: 30px;
+  background-color: #424957;
+  border-radius: 9999px;
+}
+
+.switch > span {
+  display: block;
+  border-radius: 999px;
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  margin: -1px 0 0 -1px;
+}
+
+.plan-table {
+  width: 100%;
+}
+
+.plan-table-th {
+  height: 215px;
+  display: flex;
+  flex-direction: row;
+}
+
+.table-div {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.col {
+  min-width: 262px;
+  height: fit-content;
+  padding: 32px 8px 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.table-span1 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #bec0c2;
+}
+.table-span2 {
+  color: white;
+  font-weight: bold;
+}
+
+.col button {
+  width: 100%;
+  height: 48px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0 28px;
+  border-radius: 6px;
+}
+
 @media (max-width: 767px) {
   .plan-h2 {
     font-size: 32px;
