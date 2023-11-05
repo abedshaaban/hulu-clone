@@ -1,0 +1,118 @@
+.live {
+  width: 100%;
+  min-height: 100vh;
+  padding: 150px 110px 0px 110px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8) -39.59%,
+      rgba(0, 0, 0, 0) 117.14%
+    ),
+    url("https://cnbl-cdn.bamgrid.com/assets/3ab6ce86baaf4225b072c58fa9497ec949c0c9e284b3958ecda1429b7f3744f9/original");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.live-content {
+  width: 100%;
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.live-tabs {
+  color: #ffffff66;
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.live-tabs > span:hover {
+  color: #ffffff33;
+  cursor: pointer;
+}
+
+.active {
+  color: white !important;
+  padding-bottom: 9px;
+  border-bottom: 7px solid white;
+}
+
+.live-title {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.live-content p {
+  font-size: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+
+.live-d {
+  font-size: 10px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.live a {
+  text-decoration: underline;
+}
+
+.live-imgs {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+}
+
+.live-imgs > div {
+  border-radius: 99999px;
+  width: 55px;
+  height: 55px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.live-imgs > div > img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .live {
+    min-height: 1000px;
+    display: flex;
+    flex-direction: column;
+
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8) -39.59%,
+        rgba(0, 0, 0, 0) 117.14%
+      ),
+      url("https://cnbl-cdn.bamgrid.com/assets/7a93b953315e186a518a4aa6dcd3792ecb007b8a5c5b1d540828e8bdfb2614f3/original");
+  }
+
+  .live-content {
+    padding-top: 34px;
+    justify-content: center;
+    text-align: center;
+  }
+  .live-tabs {
+    justify-content: center;
+  }
+
+  .live-content p {
+    text-align: center;
+  }
+
+  .live-imgs {
+    justify-content: center;
+  }
+}
